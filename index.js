@@ -21,7 +21,7 @@ function reverseWords(text) {
 }
 
 function wordsCount(text) {
-  if (text === "") {
+  if (text.trim() === "") {
     return 0;
   }
   return text.split(" ").length;
